@@ -25,10 +25,6 @@
         width: 45%;
     }
 
-    .course-img {
-        font-size: 34px;
-    }
-
 }
 
 @media (max-width: 1200px) {
