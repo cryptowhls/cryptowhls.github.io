@@ -264,7 +264,6 @@ nav a:hover::after {
     font-weight: 700;
     font-size: 48px;
     line-height: 1.222;
-    letter-spacing: 3px;
     text-transform: uppercase;
     color: #fff;
 }
