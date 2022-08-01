@@ -498,14 +498,6 @@ nav a:hover::after {
 
 /* COURSE */
 
-.center-img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .holder {
     max-width: 1010px;
     margin-left: auto;
@@ -576,4 +568,16 @@ nav a:hover::after {
     display: flex;
     justify-content: center;
     margin-bottom: 400px;
+}
+
+.group {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
