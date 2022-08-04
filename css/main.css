@@ -356,7 +356,6 @@ nav a:hover::after {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.78;
 }
 
 .article-img img {
@@ -498,11 +497,11 @@ nav a:hover::after {
 }
 
 .limited.l-200 {
-    max-height: 230px;
+    max-height: 200px;
 }
 
 .limited.l-300 {
-    max-height: 280px;
+    max-height: 300px;
 }
 
 .limited .bottom {
