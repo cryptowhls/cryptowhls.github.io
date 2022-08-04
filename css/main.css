@@ -351,11 +351,28 @@ nav a:hover::after {
     color: #fff;
 }
 
-.article-text p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.article-read-more {
+    display: inline-block;
+    position: relative;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
+    line-height: 1.222;
+    color: #677996;
+    text-decoration: none;
+}
+
+.article-read-more::after {
+    display: block;
+    content: '';
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(./../img/icons/icons8-user-groups-30.png);
 }
 
 .article-img img {
@@ -471,7 +488,7 @@ nav a:hover::after {
     opacity: 1;
 }
 
-/* COURSE */
+/* About the course */
 
 .center-img {
     display: block;
