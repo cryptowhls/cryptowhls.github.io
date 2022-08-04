@@ -11,7 +11,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #A1C4FD;
-    background-image: url(./../img/bg/bandle.png);
+    background-image: url(./../img/bg/bandl.png);
     background-size: 100%, auto;
     background-repeat: no-repeat;
     color: #fff;
@@ -251,11 +251,9 @@ nav a:hover::after {
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
-    transition: transform 0.8s cubic-bezier(1.000, 0.180, 0.775, 1.650);
 }
 
 .hero:hover {
-    transform: translateY(-5%);
 }
 
 .hero-category {
@@ -567,4 +565,9 @@ nav a:hover::after {
 .list-button {
     display: inline-block;
     padding-right: 40px;
+}
+
+.right-img {
+    padding: auto;
+    mix-blend-mode: multiply;
 }
